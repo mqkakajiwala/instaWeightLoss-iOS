@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450958D21ED8363E00841F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450958D11ED8363E00841F59 /* AppDelegate.swift */; };
+		450958D71ED8363E00841F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450958D51ED8363E00841F59 /* Main.storyboard */; };
+		450958DC1ED8363E00841F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450958DA1ED8363E00841F59 /* LaunchScreen.storyboard */; };
+		450958E41ED839A100841F59 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450958E31ED839A100841F59 /* HomeVC.swift */; };
+		452089241ED8476E008D6C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452089231ED8476E008D6C40 /* Assets.xcassets */; };
+		4520892D1ED850AA008D6C40 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4520892C1ED850AA008D6C40 /* iCarousel.m */; };
+		452089301ED85203008D6C40 /* HomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520892F1ED85203008D6C40 /* HomeDetailVC.swift */; };
+		757119BC414B516499933DEA /* Pods_InstaWeightLoss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DDB718C06E77E59C036BB0 /* Pods_InstaWeightLoss.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08DDB718C06E77E59C036BB0 /* Pods_InstaWeightLoss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaWeightLoss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450958CE1ED8363E00841F59 /* InstaWeightLoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaWeightLoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450958D11ED8363E00841F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450958D61ED8363E00841F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450958DB1ED8363E00841F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450958DD1ED8363E00841F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450958E31ED839A100841F59 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		452089231ED8476E008D6C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4520892A1ED850AA008D6C40 /* InstaWeightLoss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaWeightLoss-Bridging-Header.h"; sourceTree = "<group>"; };
+		4520892B1ED850AA008D6C40 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		4520892C1ED850AA008D6C40 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		4520892F1ED85203008D6C40 /* HomeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDetailVC.swift; sourceTree = "<group>"; };
+		4A463AD454A4CD7730F7D3EB /* Pods-InstaWeightLoss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaWeightLoss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaWeightLoss/Pods-InstaWeightLoss.debug.xcconfig"; sourceTree = "<group>"; };
+		C08D3229090313A8923FF82C /* Pods-InstaWeightLoss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaWeightLoss.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaWeightLoss/Pods-InstaWeightLoss.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450958CB1ED8363E00841F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757119BC414B516499933DEA /* Pods_InstaWeightLoss.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450958C51ED8363E00841F59 = {
+			isa = PBXGroup;
+			children = (
+				450958D01ED8363E00841F59 /* InstaWeightLoss */,
+				450958CF1ED8363E00841F59 /* Products */,
+				E989D94853A1CFCBA261E791 /* Pods */,
+				71E57A5D253B2410EABF35CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		450958CF1ED8363E00841F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450958CE1ED8363E00841F59 /* InstaWeightLoss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450958D01ED8363E00841F59 /* InstaWeightLoss */ = {
+			isa = PBXGroup;
+			children = (
+				450958D11ED8363E00841F59 /* AppDelegate.swift */,
+				450958E31ED839A100841F59 /* HomeVC.swift */,
+				4520892F1ED85203008D6C40 /* HomeDetailVC.swift */,
+				4520892E1ED850DE008D6C40 /* iCarousel */,
+				450958D51ED8363E00841F59 /* Main.storyboard */,
+				450958DA1ED8363E00841F59 /* LaunchScreen.storyboard */,
+				452089231ED8476E008D6C40 /* Assets.xcassets */,
+				450958DD1ED8363E00841F59 /* Info.plist */,
+				4520892A1ED850AA008D6C40 /* InstaWeightLoss-Bridging-Header.h */,
+			);
+			path = InstaWeightLoss;
+			sourceTree = "<group>";
+		};
+		4520892E1ED850DE008D6C40 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				4520892B1ED850AA008D6C40 /* iCarousel.h */,
+				4520892C1ED850AA008D6C40 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			sourceTree = "<group>";
+		};
+		71E57A5D253B2410EABF35CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08DDB718C06E77E59C036BB0 /* Pods_InstaWeightLoss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E989D94853A1CFCBA261E791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A463AD454A4CD7730F7D3EB /* Pods-InstaWeightLoss.debug.xcconfig */,
+				C08D3229090313A8923FF82C /* Pods-InstaWeightLoss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450958CD1ED8363E00841F59 /* InstaWeightLoss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450958E01ED8363E00841F59 /* Build configuration list for PBXNativeTarget "InstaWeightLoss" */;
+			buildPhases = (
+				66C45E0261D4634786631C2C /* [CP] Check Pods Manifest.lock */,
+				450958CA1ED8363E00841F59 /* Sources */,
+				450958CB1ED8363E00841F59 /* Frameworks */,
+				450958CC1ED8363E00841F59 /* Resources */,
+				3D26A35CB8CC9A9D757D1886 /* [CP] Embed Pods Frameworks */,
+				25585D0F41535B2D961C4720 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaWeightLoss;
+			productName = InstaWeightLoss;
+			productReference = 450958CE1ED8363E00841F59 /* InstaWeightLoss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450958C61ED8363E00841F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mustafa;
+				TargetAttributes = {
+					450958CD1ED8363E00841F59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 450958C91ED8363E00841F59 /* Build configuration list for PBXProject "InstaWeightLoss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450958C51ED8363E00841F59;
+			productRefGroup = 450958CF1ED8363E00841F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450958CD1ED8363E00841F59 /* InstaWeightLoss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450958CC1ED8363E00841F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450958DC1ED8363E00841F59 /* LaunchScreen.storyboard in Resources */,
+				452089241ED8476E008D6C40 /* Assets.xcassets in Resources */,
+				450958D71ED8363E00841F59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25585D0F41535B2D961C4720 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaWeightLoss/Pods-InstaWeightLoss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D26A35CB8CC9A9D757D1886 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaWeightLoss/Pods-InstaWeightLoss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C45E0261D4634786631C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450958CA1ED8363E00841F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4520892D1ED850AA008D6C40 /* iCarousel.m in Sources */,
+				450958E41ED839A100841F59 /* HomeVC.swift in Sources */,
+				452089301ED85203008D6C40 /* HomeDetailVC.swift in Sources */,
+				450958D21ED8363E00841F59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		450958D51ED8363E00841F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450958D61ED8363E00841F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450958DA1ED8363E00841F59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450958DB1ED8363E00841F59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450958DE1ED8363E00841F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450958DF1ED8363E00841F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450958E11ED8363E00841F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A463AD454A4CD7730F7D3EB /* Pods-InstaWeightLoss.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = InstaWeightLoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.InstaWeightLoss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaWeightLoss/InstaWeightLoss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		450958E21ED8363E00841F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08D3229090313A8923FF82C /* Pods-InstaWeightLoss.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = InstaWeightLoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.InstaWeightLoss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaWeightLoss/InstaWeightLoss-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450958C91ED8363E00841F59 /* Build configuration list for PBXProject "InstaWeightLoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450958DE1ED8363E00841F59 /* Debug */,
+				450958DF1ED8363E00841F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450958E01ED8363E00841F59 /* Build configuration list for PBXNativeTarget "InstaWeightLoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450958E11ED8363E00841F59 /* Debug */,
+				450958E21ED8363E00841F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450958C61ED8363E00841F59 /* Project object */;
+}

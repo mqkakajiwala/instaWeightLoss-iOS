@@ -1,0 +1,6 @@
+framework module Pods_InstaWeightLoss {
+  umbrella header "Pods-InstaWeightLoss-umbrella.h"
+
+  export *
+  module * { export * }
+}
